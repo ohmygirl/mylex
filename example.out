@@ -1,0 +1,56 @@
++-----+--------------------+--------------------+--------------------+
+|  No.|              Symbol|         Symbol Type|               Notes|
++-----+--------------------+--------------------+--------------------+
+|   1 |              const |           constsym |                    |
+|   2 |                  a |              ident |                    |
+|   3 |                  = |                eql |                    |
+|   4 |                 10 |             number |                    |
+|   5 |                  ; |          semicolon |                    |
+|   6 |                var |             varsym |                    |
+|   7 |                  b |              ident |                    |
+|   8 |                  , |              comma |                    |
+|   9 |                  c |              ident |                    |
+|  10 |                  ; |          semicolon |                    |
+|  11 |          procedure |       proceduresym |                    |
+|  12 |                  p |              ident |                    |
+|  13 |              begin |           beginsym |                    |
+|  14 |                  c |              ident |                    |
+|  15 |                 := |            becomes |                    |
+|  16 |                  b |              ident |                    |
+|  17 |                  + |               plus |                    |
+|  18 |                  a |              ident |                    |
+|  19 |                  ; |          semicolon |                    |
+|  20 |                end |             endsym |                    |
+|  21 |                  ; |          semicolon |                    |
+|  22 |              begin |           beginsym |                    |
+|  23 |               read |            readsym |                    |
+|  24 |                  ( |             lparen |                    |
+|  25 |                  b |              ident |                    |
+|  26 |                  ) |             rparen |                    |
+|  27 |                  ; |          semicolon |                    |
+|  28 |              while |           whilesym |                    |
+|  29 |                  b |              ident |                    |
+|  30 |                  # |                neq |                    |
+|  31 |                  0 |             number |                    |
+|  32 |                 do |              dosym |                    |
+|  33 |              begin |           beginsym |                    |
+|  34 |               call |            callsym |                    |
+|  35 |                  p |              ident |                    |
+|  36 |                  ; |          semicolon |                    |
+|  37 |              write |           writesym |                    |
+|  38 |                  ( |             lparen |                    |
+|  39 |                  2 |             number |                    |
+|  40 |                  * |              times |                    |
+|  41 |                  c |              ident |                    |
+|  42 |                  ) |             rparen |                    |
+|  43 |                  ; |          semicolon |                    |
+|  44 |               read |            readsym |                    |
+|  45 |                  ( |             lparen |                    |
+|  46 |                  b |              ident |                    |
+|  47 |                  ) |             rparen |                    |
+|  48 |                  ; |          semicolon |                    |
+|  49 |                end |             endsym |                    |
+|  50 |                end |             endsym |                    |
+|  51 |                  . |             period |                    |
+|  52 |                EOF |                eof |                    |
++-----+--------------------+--------------------+--------------------+

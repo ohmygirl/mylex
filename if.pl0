@@ -1,0 +1,4 @@
+123if i = 5 then
+    x:=y;
+else
+    x:=z;
